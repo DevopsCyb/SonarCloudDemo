@@ -8,7 +8,9 @@
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
 
-	  <CoverletOutputFormat>opencover,cobertura,json,lcov,teamcity</CoverletOutputFormat>
+    <CollectCoverage>true</CollectCoverage>
+    <CoverletOutput>results/coverage</CoverletOutput>
+    <CoverletOutputFormat>opencover,cobertura</CoverletOutputFormat>
   </PropertyGroup>
 
   <ItemGroup>
